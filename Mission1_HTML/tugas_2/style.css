@@ -1,0 +1,136 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.menu{
+    float:right;
+}
+
+nav{
+    width: 100%;
+    margin:auto;
+    display: flex;
+    line-height: 65px;
+    position: -webkit-sticky;
+    top:0 ;
+    background: #FFFFFF;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li a{
+    color: grey;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display:flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:red;
+    line-height: 50px;
+}
+
+a.tombol{
+    background: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid gray;
+}
+
+a.tombol:hover{
+    background: white;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.img{
+    padding: 5%;
+    width: 200px;
+    height: 200px;
+}
+
+.bg{
+    background-color: rgba(128, 128, 128, 0.164);
+    padding: 20px;
+}
+
+.greenbutton{
+    background : #65D777;
+    padding: 1px 20px 1px 20px;
+    border-color: #65D777;;
+    color: white;
+    cursor: pointer;
+}
+
+.author{
+    float: right;
+}
+
+.author p{
+    float: right;
+    margin-right: 5%;
+    margin: 1%;
+}
+
+.author img{
+    width: 9%;
+    border-radius: 50%;
+    float: right;
+}
